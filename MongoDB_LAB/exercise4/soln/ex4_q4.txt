@@ -1,6 +1,6 @@
 Question 4:
 
-var cust = db.customers.find({ name: "Leslie Martinez" }).toArray();
+var cust = db.Customers.find({ name: "Leslie Martinez" }).toArray();
 var account = cust[0].accounts[0];
 db.transactions.updateOne(
   { account_id: account },
